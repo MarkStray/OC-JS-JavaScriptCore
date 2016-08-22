@@ -60,13 +60,6 @@
     [self.jsContext setObject:_showSendMsg forKeyedSubscript:@"showSendMsg"];
 }
 
-- (void)showName:(NSString *)name {
-}
-
-- (void)showSendNumber:(NSString *)num msg:(NSString *)msg {
-}
-
-
 - (void)showMsg:(NSString *)msg {
     [[[UIAlertView alloc] initWithTitle:nil message:msg delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil] show];
 }
